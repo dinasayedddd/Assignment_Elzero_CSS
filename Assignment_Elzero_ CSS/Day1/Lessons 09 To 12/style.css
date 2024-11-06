@@ -1,0 +1,41 @@
+/* task one */
+/* div{
+    display: inline;
+    background-color: blanchedalmond;
+
+}
+.shape1{
+    border: 5px red solid;
+    outline: 5px black solid;
+
+}
+.shape2{
+    border: 5px  solid;
+    border-color: blue green;
+    outline: 5px black solid;
+}
+.shape3{
+    border: 5px  dashed;
+    border-color: red green blue yellow;
+    outline: 5px black solid;
+} */
+
+/* task two */
+.element{
+    width: 400px;
+    padding: 30px;
+    background-color: rgb(231, 225, 217);
+
+}
+
+.element-1{
+    border-left: 5px rgb(209, 33, 92) solid;
+    width: 400px;
+
+}
+.element-2{
+visibility: hidden;
+}
+.element-3{
+    border-left: 5px rgb(16, 105, 16) solid;
+}

@@ -1,0 +1,110 @@
+/* task one  */
+/* div{
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+div:first-of-type{
+    background-color: #ccc;
+    font-weight: 500;
+}
+div:empty{
+    background-color: red;
+}
+div:empty+div{
+    background-color: #ccc;
+    font-weight: 500;
+} */
+
+/* task two */
+
+/* div {
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    font-size: 32px;
+    font-weight: 500px;
+    font-family: sans-serif;
+    background-color: #ccc;
+    padding: 40px;
+    position: relative;
+}
+div::before {
+    content: "1";
+    padding: 20px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    margin-top: -40px;
+}
+div::first-letter
+{
+visibility: hidden;
+} */
+
+/* task three */
+/* p{
+    font-family: sans-serif;
+    background-color: #ccc;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid rgb(218, 9, 79) ;
+    position: relative;
+    font-size: 20px;
+}
+P::before{
+    content: " ";
+    width: 20px;
+    height: 0p;
+    background-color: white;
+    position: absolute;
+    left: -44px;
+    top:-25;
+    border-width: 10px ;
+    border-style: solid;
+    border-color: transparent  rgb(218, 9, 79) transparent  transparent;
+}
+p::after{
+    content: attr(data-person);
+    position: absolute;
+    left: -130px;
+    top: -3px;
+    background-color: #ccc;
+    padding: 20px;
+} */
+
+/* task four */
+p {
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    font-size: 32px;
+    font-family: sans-serif;
+    background-color: #ccc;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    border-right:10px solid red ;
+    counter-increment: number;
+}
+p::before {
+    content:counter(number);
+    padding: 20px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 53%;
+    left: -55px;
+    margin-top: -40px;
+}

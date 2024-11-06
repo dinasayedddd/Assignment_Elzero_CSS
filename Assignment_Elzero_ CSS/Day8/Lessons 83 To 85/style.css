@@ -1,0 +1,105 @@
+/* task one */
+/* @media print{
+    .assign-one{
+        font-size: 40px;
+    }
+} */
+/* task two */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: 0 30px;
+}
+.container div {
+    width: 100%;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5px;
+}
+@media (min-width:992px) and (max-width:1200px){
+    .container div{
+        width: 100%;
+    }
+    h4{
+        color: black;
+    }
+} 
+@media (min-width:992px){
+    .container div{
+        width: calc((100% - 40px) / 4);
+    }
+    h4{
+        color: darkcyan;
+    }
+} 
+@media (min-width:768px) and (max-width:991px){
+    .container div{
+        width: calc((100% - 20px) / 2);
+    }
+    h4{
+        color: red;
+    }
+} */
+
+/* task three*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: 0 30px;
+}
+.container div {
+    width: 100%;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5px;
+}
+@media  (max-width:767px){
+    .container div{
+        width: 100%;
+    }
+    h4{
+        color: black;
+    }
+} 
+@media (min-width:992px) and (max-width:1200px){
+    .container .one,
+    .container .four{
+        width:100%
+    }
+    .container .two,
+    .container .three{
+        width: calc((100% - 20px) / 2);
+    }
+    h4{
+        color: darkcyan;
+    }
+} 
+@media (min-width:768px) and (max-width:991px){
+    .container .one{
+        width:100%
+    }
+    .container .two,
+    .container .three,
+    .container .four{
+        width: calc((100% - 30px) / 3);
+    }
+    h4{
+        color: red;
+    }
+} 

@@ -1,0 +1,72 @@
+/* task one */
+/* .parent{
+    padding: 10px;
+    width: 500px;
+    height: 250px;
+    background-color: #eee;
+    font-family: sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    transition-duration: 0.5s ;
+    transition-delay:1s;
+    transition-property: margin; 
+}
+.child{
+    background-color: #ddd;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition-duration: 0.5s ;
+    transition-delay:1s;
+    transition-property: margin; 
+}
+div:hover{
+    margin-top:50px;
+    margin-bottom: 50px;
+    transition-timing-function: ease-in-out;
+} */
+
+/* task two */
+/* div{
+    border:none !important;
+    background-color: #ccc !important;
+    text-align:center !important ;
+    color: black !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin: 50px !important;
+    padding: 30px !important; 
+}
+p{
+    display: none;
+}
+div::after{
+    content: "Elzero";
+} */
+
+/* task three */
+/* 1... */
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+div {
+    border-width: 3px;
+    border-style:solid;
+    border-color:  var(--mainColor);
+    padding: var(--mainPadding);
+    margin: 20px;
+    color: var(--mainColor);
+    font-size: 25px;
+  } */
+
+/* 2... */
+div {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 20px;
+    color: red;
+    font-family: sans-serif;
+    font-size: 25px;
+}

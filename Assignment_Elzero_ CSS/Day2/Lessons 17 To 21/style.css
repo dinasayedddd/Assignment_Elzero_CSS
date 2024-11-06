@@ -1,0 +1,68 @@
+/* task one */
+/* .one{
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 
+    1px 1px 0 orangered,  
+    2px 2px 0 rgb(71, 184, 219),
+    3px 3px 0 purple; 
+} */
+
+/* task two */
+/* .one,.two,.three{
+    text-align: center;
+}
+.one{
+    text-transform: uppercase;
+}
+.two{
+    text-transform: capitalize;
+}
+.three{
+    text-transform: lowercase;
+} */
+
+/* task three */
+  /* div{
+    width: 400px;
+    padding: 20px; 
+    font-size: 16px;
+    background-color:rgb(243, 238, 231); 
+  }
+  div{
+    width: 400px;
+    padding: 20px; 
+    font-size: 16px;
+    background-color:rgb(243, 238, 231); 
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  div{
+    width: 400px;
+    padding: 20px; 
+    font-size: 16px;
+    background-color:rgb(243, 238, 231); 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  } */
+
+  /* task four */
+
+a{
+    text-align: center;
+    background-color: rgb(59, 179, 137);
+    border-bottom: 5px solid rgb(18, 73, 57);
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+
+    
+}
+body{
+    text-align: center;
+}

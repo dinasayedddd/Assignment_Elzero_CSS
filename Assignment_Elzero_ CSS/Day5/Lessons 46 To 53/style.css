@@ -1,0 +1,259 @@
+/* task one */
+/* div{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: #eee;
+    color: orangered;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 50%;
+    box-shadow: 10px 0 0 0 orangered,-10px 0 0 0 rgb(22, 135, 216);
+} */
+
+/* task two */
+/* .parent{
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.parent  div{
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px ;
+    text-align: center;
+    align-content: center;
+    flex-basis: 150px;
+} */
+
+/* task three */
+/* .parent{
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.parent div{
+    color: white;
+    background-color: rgb(76, 128, 125);
+    flex-basis: 150px;
+}
+.one{
+    order: 6;
+    text-align: center;
+    align-content: center;
+    justify-items: end;
+    align-self: flex-end;
+    padding-left:17px ;
+    padding-right:17px ;
+}
+.two{
+    order: 5;
+    text-align: center;
+    align-content: center;
+    padding:25px ;
+}
+.three{
+    order: 2;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    width: 100px;
+    height: 3px;
+    padding-left:20px ;
+    padding-right:20px ;
+
+}
+.four{
+    order: 3;
+    padding: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px ;
+    text-align: center;
+    align-content: center;
+}
+.five{
+    order: 4;
+    text-align: center;
+    align-content: center;
+    
+}
+.six{
+    order: 1;
+    text-align: center;
+    align-content: center;
+} */
+
+/* task four */
+/* .parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.parent div{
+    background-color: rgb(5, 161, 145);
+    color: white;
+    align-items: center;
+    align-content: center;
+}
+.one{
+order: 3;
+flex-basis: 30px;
+padding: 30px 0 30px 0;
+text-align: center;
+align-self: flex-start;
+}
+.three{
+    margin-right: 10px;
+    flex-basis: 30px;
+    padding: 30px 10px 30px 10px;
+    text-align: center;
+    align-self: flex-end;
+    position: absolute;
+    right: 0;
+}
+.two{
+    margin-left: 10px;
+    flex-basis: 250px;
+    padding: 30px;
+    text-align: center;
+    align-self: center;
+} */
+
+/* task five */
+/* .parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    position: relative;
+}
+.parent div {
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.one {
+    background-color: orange;
+    align-self: flex-start;
+    flex-basis: 80px;
+    padding: 60px 40px;
+    position: absolute;
+    left: 30%;
+}
+.two {
+    background-color: chartreuse;
+    align-self: flex-end;
+    order: 1;
+    flex-basis: 80px;
+    padding: 60px 40px;
+    position: absolute;
+    left: 50%;
+}
+.three {
+    background-color: rgb(97, 58, 8);
+    align-self: flex-start;
+    order: 1;
+    flex-basis: 80px;
+    padding: 60px 40px;
+    position: absolute;
+    right: 10%;
+}
+.four {
+    background-color: blueviolet;
+    align-self: flex-end;
+    flex-basis: 80px;
+    padding: 60px 40px;
+    position: absolute;
+    left: 5%;
+} */
+
+/* task six */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #ddd;
+    padding: 10px 20px; 
+}
+.logo {
+    background-color: #ccc;
+    padding: 10px;
+    flex-basis: 100px; 
+    text-align: center;
+}
+.links {
+    list-style: none; 
+    display: flex;
+}
+.links li {
+    cursor: pointer;
+    padding: 10px;
+}
+.main-area {
+    display: flex;
+    flex: 1;
+    background-color: #ddd;
+    padding: 10px;
+    gap: 10px;
+}
+.content {
+    background-color: #ccc;
+    flex: 3;
+    padding: 20px;
+}
+.sidebar {
+    background-color: #c9c9c9;
+    flex: 1;
+    padding: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    padding: 10px;
+}
+.copyright,
+.design {
+    background-color: #ccc;
+    padding: 10px;
+    
+}

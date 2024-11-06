@@ -1,0 +1,83 @@
+/* task one */
+/* Any Element With Class Title */
+/* class */
+.title {
+}
+
+/* id*/
+#nav {
+}
+
+/* element */
+div {
+}
+
+/* element */
+h2 {
+}
+
+
+/* task two */
+/* <!-- internal -->
+<link rel="stylesheet" href="css/file.css" />
+
+<!-- external -->
+<style>
+p {
+  color: red;
+}
+</style>
+
+<!-- ?=inline -->
+<p style="color: blue;">This Is Our Paragraph</p> */
+
+/* task five */
+/* yes */
+._user-name {
+}
+
+/* yes */
+.-user-name {
+}
+
+/* no */
+.1user-name {
+}
+
+/* no */
+.@user-name {
+}
+
+/* no */
+.user@name {
+}
+
+/* yes */
+._user10name {
+}
+
+/* yes */
+.u {
+}
+
+
+/* task six */
+/* bad */
+.USERNAME {
+}
+
+/* good */
+.UserName {
+}
+
+/* good */
+.user-name {
+}
+
+/* good */
+.userName {
+}
+
+/* bad */
+.usernameprofile {
+}

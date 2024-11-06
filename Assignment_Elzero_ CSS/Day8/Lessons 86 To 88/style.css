@@ -1,0 +1,69 @@
+/* task one */
+/* .center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-100{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.circle-200{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+} */
+/* task two */
+div{
+    width: 50%;
+    height: 50px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+    background-color: #ddd;
+    padding:  20px;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+}
+.arrow::before{
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 40px;
+}
+.top::before{
+    bottom: 97%;
+    left: 44%;
+    border-color: transparent transparent #ddd transparent;
+
+}
+.right::before{
+    top: 7%;
+    left: 99%;
+    border-color:  transparent transparent transparent #ddd;
+
+}
+.bottom::before{
+    top: 99%;
+    left: 44%;
+    border-color: #ddd transparent transparent transparent;
+
+}
+.left::before{
+    top: 7%;
+    left: -7%;
+    border-color: transparent #ddd transparent transparent ;
+
+}

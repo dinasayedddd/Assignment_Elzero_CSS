@@ -1,0 +1,65 @@
+/* task one */
+
+/* .parent{
+    width: 800px;
+    padding: 0;
+    text-align: center;
+    background-color: #EEE;
+}
+.parent div{
+    background-color: #DDD;
+    float: left;
+    padding: 10px 0;
+    margin: 15px 0 15px 15px;
+}
+.full-width{
+    width: calc(100% - 15px*2) ;
+}
+.one-third{
+    width: calc(((100% ) - (15px * 4))/3) ;
+}
+.one-half{
+    width: calc(((100% ) - (15px * 3))/2) ;
+}
+.one-forth{
+    width: calc((100% - (15px*5))/4) ;
+}
+.clear{
+    display: block;
+    clear: both;
+} */
+
+/* task two */
+
+.normal {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #c9c6c6; /* Get The Background From Image */
+    color: black;
+  }
+.one {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(201 198 198 / 0.2); /* Get The Background From Image */
+    color: black;
+  }
+
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #c9c6c6; /* Get The Background From Image */
+    color: black;
+    opacity: 0.2;
+  }
+
+
+

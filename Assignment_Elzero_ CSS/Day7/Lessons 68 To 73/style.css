@@ -1,0 +1,151 @@
+/* task one */
+/* :root {
+    --main-color: orangered;
+}
+h1 {
+    width: 150px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 40px;
+    padding: 40px;
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+}
+h1::before {
+    content: "";
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color);
+    z-index: -1;
+    transform: skew(15deg , 15deg);
+} 
+h1::after {
+    content: "";
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color);
+    z-index: -1;
+    transform: skew(-15deg , -15deg);
+    -webkit-transform: skew(-15deg , -15deg);
+} */
+
+/* task two  */
+/* h1{
+    width: 150px;
+    background-color: teal;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin: 50px auto ;
+    position: relative;
+}
+h1::before{
+    content: "";
+    height: 100%;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    background-color: teal;
+    border-right: 18px solid white;
+    transform: skewX(20deg);
+} */
+
+/* task three */
+
+/* task four */
+/* div {
+    width:  200px;
+    height: 200px;
+    margin: 200px auto;
+    background-color: cadetblue;
+    border-bottom: 5px solid black;
+    position: relative;
+}
+div::before{
+    position: absolute;
+    content: "";
+    width: 138px;
+    height: 138px;
+   background-color:black;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    transform: rotate(45deg);
+    top: 0;
+    left: 50%;
+    margin-left: -70px;
+    margin-top: -70px;
+}
+div::after{
+    content: "Elzero";
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 20px;
+} */
+
+/* task five */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+div{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -100px;
+    perspective: 600px;
+    transform: translate(-50%, -50%) rotateY(0deg);
+    transform-style: preserve-3d;
+    transition:  transform 2s;
+}
+div::before,
+div::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    backface-visibility: hidden;
+}
+div::before{
+    content: "front";
+    background-color: violet;
+}
+div::after{
+    content: "back";
+    background-color: cornflowerblue;
+    transform:rotateY(180deg);
+    /* transform:rotateX(180deg); */
+}
+div:hover{
+    transform: translate(-50%, -50%) rotateY(180deg);
+    /* transform: translate(-50%, -50%) rotateX(180deg); */
+
+}
+
+

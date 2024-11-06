@@ -1,0 +1,43 @@
+/* task one */
+/* div {
+    padding: 20px;
+    border: 2px solid orangered;
+}
+
+p {
+    background-color: rgb(205, 199, 190);
+    text-align: center;
+    padding: inherit;
+    border: inherit;
+} */
+
+/* task two */
+/* .one,.two,.three{
+    text-align: center;
+}
+.one{
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.two{
+    font-weight: bold;
+}
+.three{
+    letter-spacing: -1px;
+    font-weight: bold;
+} */
+
+/* task three */
+.one,.two,.three{
+    text-align: center;
+}
+.one{
+    font-size: 3.125rem;
+}
+.two{
+    font-size: 2.5rem;
+}
+.three{
+    font-size: 1.875rem;
+}

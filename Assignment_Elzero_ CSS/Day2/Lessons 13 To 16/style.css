@@ -1,0 +1,32 @@
+/* task one */
+/* .parent .child  .title{
+    color: red;
+
+}
+.parent .title{
+    color: blue;
+
+}
+.parent p,.title{
+    color: green;
+} */
+
+/* task two */
+
+.one,.two,.three,.four{
+    background-color: brown;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    display: block;
+    width: fit-content;
+  
+}
+
+.four{
+ overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap 
+}
+

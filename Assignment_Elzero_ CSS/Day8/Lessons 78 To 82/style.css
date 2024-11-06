@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+div,p {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+/* task one  */
+/* div.main.red{
+    color: red;
+} */
+
+/* task two  */
+/* .parent .child:nth-child(2){
+    color: red;
+} */
+
+/* task three*/
+/* .parent:nth-child(2){
+    color: red;
+} */
+
+/* task four */
+/* p ~ [title]:not(.no-need ,.parent div) {
+    color: red;
+} */
+
+/* task five */
+/* div[title="Elzero"]:last-child:not(.no-need ,.no-need div ){
+    color: red;
+} */
+
+/* task six  */
+/* div:not(.no-need ) div:nth-last-of-type(2){
+    color: red;
+} */
+
+/* task seven*/
+/* div:first-child div:nth-last-of-type(2){
+    color: red;
+} */
+
+/* task eight*/
+/* div :not(:first-child , h3 , :last-child){
+    color: red;
+}  */

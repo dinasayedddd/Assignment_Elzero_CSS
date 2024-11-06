@@ -1,0 +1,228 @@
+/* task one */
+/* div{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    border-radius: 50%;
+    border: 10px solid pink;
+    border-left-color: transparent;
+    position: relative;
+        animation: rotate 1s linear infinite;
+}
+div::before{
+    position: absolute;
+    top: -25px;
+    width: 80px;
+    height: 80px;
+    content: "";
+    border-radius: 50%;
+    border: 10px solid ;
+    border-color:cornflowerblue transparent cornflowerblue   cornflowerblue ;
+    animation: rotate 1s linear infinite;
+}
+div::after{
+    content: "";
+    position: absolute;
+    top: -40px;
+    width: 110px;
+    height: 110px;
+    content: "";
+    border-radius: 50%;
+    border: 10px solid ;
+    border-color: transparent goldenrod goldenrod goldenrod;
+    animation: rotate 1s linear infinite;
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+div:hover,
+div:hover::before,
+div:hover::after {
+    animation-play-state: paused;
+} */
+
+/* task two */
+/* div{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    border-radius: 50%;
+    border: 10px solid cornflowerblue;
+    border-left-color: transparent;
+    position: relative;
+    animation: rotate 1s linear infinite;
+}
+div::before{
+    position: absolute;
+    top: -25px;
+    width: 80px;
+    height: 80px;
+    content: "";
+    border-radius: 50%;
+    border: 10px solid goldenrod;
+    border-left-color: transparent;
+    animation: rotate 2s linear infinite;
+}
+div::after{
+    content: "";
+    position: absolute;
+    top: -40px;
+    width: 110px;
+    height: 110px;
+    content: "";
+    border-radius: 50%;
+    border: 10px solid ;
+    border-left-color: transparent;
+    animation: rotate 3s linear infinite;
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+div:hover,
+div:hover::before,
+div:hover::after {
+    animation-play-state: paused;
+} */
+
+/* task three */
+/* span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    background-color: darkgrey;
+    border-radius: 50%;
+    border: 10px solid;
+    border-left-color:transparent ;
+    animation-name: radius;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes radius{
+    0%{
+        transform: rotate(0deg);
+}
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+/* task four */
+* {
+    box-sizing: border-box;
+}
+.one {
+    background-color: #333;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+}
+.two {
+    background-color: #333;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+}
+.three {
+    background-color: #333;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 400px;
+}
+.four {
+    background-color: #333;
+    width: 50px;
+    height: 442px;
+}
+.five {
+    background-color: #333;
+    width: 50px;
+    height: 442px;
+    transform: translate(340px, -442px)
+}
+.six {
+    background-color: #333;
+    width: 300px;
+    height: 50px;
+    transform: translate(340px, -492px);
+}
+.seven {
+    background-color: orange;
+    width: 40px;
+    height: 35px;
+    transform: translate(590px, -535px);
+    animation-name: move1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes move1 {
+    0% {
+        transform: translate(590px, -535px)
+    }
+    25% {
+        transform: translate(345px, -535px)
+    }
+    50% {
+        transform: translate(345px, -925px)
+    }
+    100% {
+        transform: translate(345px, -925px);
+        opacity: 0
+    }
+}
+.eight {
+    background-color: orange;
+    width: 40px;
+    height: 35px;
+    transform: translate(250px, -962px);
+    animation-name: move2;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes move2 {
+    0% {
+        transform: translate(250px, -962px)
+    }
+    10% {
+        transform: translate(5px, -962px)
+    }
+    20% {
+        transform: translate(5px, -770px)
+    }
+    30% {
+        transform: translate(250px, -770px)
+    }
+    40% {
+        transform: translate(5px, -770px)
+    }
+    50% {
+        transform: translate(5px, -569px)
+    }
+    60% {
+        transform: translate(250px, -569px)
+    }
+    70% {
+    transform: translate(5px, -569px)
+    }
+    90% {
+        transform: translate(5px, -962px)
+    }
+    100% {
+        transform: translate(250px, -962px)
+    }
+}
